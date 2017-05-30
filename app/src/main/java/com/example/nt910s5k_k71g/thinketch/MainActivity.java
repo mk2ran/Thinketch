@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
         EditText idText = (EditText) findViewById(R.id.idText);
         EditText pwText = (EditText) findViewById(R.id.pwText);
 
-
         final Button logbutton = (Button) findViewById(R.id.logbutton);
         final Button regbutton = (Button) findViewById(R.id.regbutton);
 
