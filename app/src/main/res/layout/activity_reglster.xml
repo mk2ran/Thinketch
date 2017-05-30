@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/idText"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="ID(1~8)"
+        android:maxLength="8"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/pwText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="PW(1~12)"
+        android:inputType="textPersonName"
+        android:maxLength="12"
+        android:password="true" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="닉네임(영어만)"
+        android:inputType="textPersonName"
+        android:maxLength="5" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_weight="0.35"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+        <Button
+            android:id="@+id/regbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="79dp"
+            android:text="OK"
+
+            />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="79dp"
+            android:orientation="horizontal"
+            android:text="Cancle" />
+
+    </LinearLayout>
+
+</LinearLayout>

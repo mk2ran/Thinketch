@@ -21,6 +21,14 @@ public class MainActivity extends AppCompatActivity {
         final Button logbutton = (Button) findViewById(R.id.logbutton);
         final Button regbutton = (Button) findViewById(R.id.regbutton);
 
+        regbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent regIntent = new Intent(MainActivity.this, ReglsterActivity.class);
+                MainActivity.this.startActivity(regIntent);
+            }
+        });
+
         logbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
